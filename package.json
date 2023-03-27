@@ -1,5 +1,5 @@
 {
-  "name": "@xmartlabs/react-native-line",
+  "name": "react-native-lune",
   "description": "React Native Line wrapper",
   "author": "XmartLabs <hi@xmartlabs.com>",
   "contributors": [
@@ -11,7 +11,7 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "homepage": "https://github.com/xmartlabs/react-native-line#readme",
   "keywords": [
     "react-native",
@@ -34,25 +34,21 @@
     "test:ts": "tsc --noEmit"
   },
   "peerDependencies": {
-    "react": "^16.0",
+    "react": ">=16.0",
     "react-native": ">=0.61.1"
   },
   "devDependencies": {
-    "@react-native-community/eslint-config": "0.0.5",
-    "@types/react-native": "0.60.25",
-    "@typescript-eslint/eslint-plugin": "2.12.0",
-    "@typescript-eslint/parser": "2.12.0",
-    "eslint": "6.5.1",
-    "eslint-config-prettier": "6.10.0",
-    "eslint-plugin-prettier": "3.1.2",
-    "eslint-plugin-simple-import-sort": "5.0.1",
-    "eslint-plugin-sort-keys-fix": "1.1.0",
-    "prettier": "1.19.1",
-    "typescript": "3.9.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh:git@github.com:xmartlabs/react-native-line.git"
+    "@react-native-community/eslint-config": "*",
+    "@types/react-native": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-simple-import-sort": "*",
+    "eslint-plugin-sort-keys-fix": "*",
+    "prettier": "*",
+    "typescript": "*"
   },
   "files": [
     "dist/",

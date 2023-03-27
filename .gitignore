@@ -68,3 +68,6 @@ buck-out/
 /example/ios/Pods/
 
 dist/
+
+# tarballs
+*tgz
